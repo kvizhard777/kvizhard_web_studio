@@ -1,0 +1,41 @@
+.nav__links-link:hover {
+    color: #fff;
+    border-bottom: 1px solid #02f74c;
+    padding-bottom: 4px;
+    transition: 0.1s ease;
+}
+
+.nav__button:hover {
+    color: #02f74c;
+    background-color: #050505;
+    transition: 0.2s ease;
+}
+
+.header__main-btn-first:hover {
+    color: #02f74c;
+    background-color: #050505;
+    transition: 0.2s ease;
+}
+
+.header__main-btn-second:hover {
+    color: #fff;
+    background-color: #050505;
+    transition: 0.2s ease;
+}
+
+.main__button:hover {
+    color: #fff;
+    background-color: #101010;
+    transition: 0.2s ease;
+}
+
+.main__features-block:hover {
+    color: #fff;
+    background-color: #101010;
+    transition: 0.1s ease;
+}
+
+.main__portfolio-img:hover {
+    border-radius: 40px;
+    transition: 0.2s ease;
+}

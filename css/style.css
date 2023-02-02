@@ -1,0 +1,370 @@
+@import "reset.css";
+@import "hover.css";
+@import "adaptive.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #050505;
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.green {
+    color: #02f74c;
+}
+
+.under {
+    border-bottom: 2px solid #02f74c;
+    padding-bottom: 3px;
+}
+
+/* Header */
+
+.header {
+    margin-top: 60px;
+    margin-bottom: 120px;
+}
+
+/* Header NAV */
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+/* Header LOGO */
+
+.logo {
+    font-size: 30px;
+    font-weight: 800;
+
+    color: #fff;
+}
+
+/* Header NAV-LINKS */
+
+.nav__links {
+    display: flex;
+    column-gap: 45px;
+}
+
+.nav__links-text {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nav__links-link {
+    color: #cacaca;
+    transition: 0.1s ease;
+}
+
+/* Header NAV-BUTTON */
+
+.nav__button {
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 8px;
+    border: 1px solid #02f74c;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    color: #151515;
+    background-color: #02f74c;
+
+    transition: 0.2s ease;
+}
+
+/* Header MAIN */
+
+.header__main-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 90px;
+}
+
+.header__main-wrapper-first {
+    max-width: 560px;
+    margin-top: 30px;
+}
+
+.header__main-wrapper-second {
+    max-width: 560px;
+}
+
+/* Header MAIN-TEXT */
+
+.header__main-text {
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+    line-height: 45px;
+}
+
+/* Header MAIN-BUTTON */
+
+.header__main-btn-wrapper {
+    display: flex;
+    column-gap: 15px;
+    margin-top: 30px;
+}
+
+.header__main-btn-first {
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 8px;
+    border: 1px solid #02f74c;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    color: #151515;
+    background-color: #02f74c;
+
+    transition: 0.2s ease;
+}
+
+.header__main-btn-second {
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 8px;
+    border: 1px solid #303030;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    color: #02f74c;
+    background-color: #151515;
+
+    transition: 0.2s ease;
+}
+
+/* Header MAIN-FIRE */
+
+.header__main-shape {
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+
+    background-color: #151515;
+}
+
+.header__main-fire {
+    text-align: center;
+    line-height: 300px;
+    font-size: 200px;
+}
+
+/* Main */
+
+.main {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.main__text {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.main__button {
+    margin-top: 40px;
+
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 8px;
+    border: 1px solid #303030;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    color: #02f74c;
+    background-color: #151515;
+
+    transition: 0.2s ease;
+}
+
+/* Main ABOUT */
+
+.main__about {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+
+    border-radius: 30px;
+    
+    background-color: #101010;
+}
+
+.main__text-about {
+    margin-top: 40px;
+
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    line-height: 24px;
+    font-weight: 100;
+}
+
+/* Main FEATURES */
+
+.main__features {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+
+    border-radius: 30px;
+    
+    background-color: #101010;
+}
+
+/* Main FEATURES-BLOCK */
+
+.main__features-block-wrap {
+    margin-top: 40px;
+}
+
+.main__features-block-wrap-first {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 40px;
+
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.main__features-block-wrap-second {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 40px;
+
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 40px;
+}
+
+.main__features-block {
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 10px;
+    border: 1px solid #303030;
+
+    cursor: pointer;
+
+    font-size: 14px;
+    font-weight: 500;
+
+    color: #02f74c;
+    background-color: #090909;
+
+    transition: 0.1s ease;
+}
+
+/* Main PORTFOLIO */
+
+.main__portfolio {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+
+    border-radius: 30px;
+    
+    background-color: #101010;
+}
+
+/* Main PORTFOLIO-IMG */
+
+.main__portfolio-wrap-first {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 40px;
+    column-gap: 30px;
+
+    cursor: pointer;
+}
+
+.main__portfolio-wrap-second {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 40px;
+    column-gap: 30px;
+
+    cursor: pointer;
+}
+
+.main__portfolio-img {
+    width: 30%;
+    border: 1px solid #303030;
+    border-radius: 20px;
+
+    transition: 0.2s ease;
+}
+
+/* Main PORTFOLIO-BTN */
+
+.main__button-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+/* Footer */
+
+.footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    text-align: center;
+    background-color: #101010;
+}
+
+/* Footer SOCIALS */
+
+.footer__socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 12px;
+}
+
+.footer__socials-img {
+    width: 35px;
+}
+
+/* Footer COPYRIGHT */
+
+.footer__copyright {
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 20px;
+}
